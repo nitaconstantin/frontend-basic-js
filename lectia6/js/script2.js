@@ -60,7 +60,17 @@ Operatori matematici:
 //
 let x = 5;
 let y = 8;
-let z = x < y; // false
+let z = x === y || x > 3; // false
+// Operatori Logici:
+// 0 && 1 = 0
+// 0 && 0 = 0
+// 1 && 0 = 0
+// 1 && 1 = 1
+
+// 0 || 0 = 0
+// 0 || 1 = 1
+// 1 || 1 = 1
+// 1 || 0 = 1
 
 // intotdeauna va intoarce true!!!!
 // if (x === y) {
