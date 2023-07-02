@@ -45,6 +45,14 @@ Operatori matematici:
 // x += 5; // x + 5
 // x -= 5; // x - 5
 // x -= y;
-let x = 5 + 3 * (2 + 7 - 8 / 2); // 14 // 20
+// let x = 5 + 3 * (2 + 7 - 8 / 2); // 14 // 20
 
+// let x = "text";
+// let y = "descriptiv";
+// let z = x + " " + y;
+// x += " un alt text";
+let x = 5;
+x += 3;
+x += "7";
+x += 1;
 console.log("variabila x are valoarea: ", x);
