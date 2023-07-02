@@ -58,9 +58,10 @@ Operatori matematici:
 
 // Operatori de comparatie:
 //
-let x = 5;
-let y = 8;
-let z = x === y || x > 3; // false
+let x = "a";
+let y = "b";
+let z = x > y; // false
+// operatorul logic pentru negare !
 // Operatori Logici:
 // 0 && 1 = 0
 // 0 && 0 = 0
