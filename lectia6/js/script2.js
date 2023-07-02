@@ -51,8 +51,32 @@ Operatori matematici:
 // let y = "descriptiv";
 // let z = x + " " + y;
 // x += " un alt text";
+// let x = 5;
+// x += 3;
+// x += "7";
+// x += 1;
+
+// Operatori de comparatie:
+//
 let x = 5;
-x += 3;
-x += "7";
-x += 1;
-console.log("variabila x are valoarea: ", x);
+let y = 8;
+let z = x < y; // false
+
+// intotdeauna va intoarce true!!!!
+// if (x === y) {
+// }
+
+// console.log("y transformat in numar ", parseInt(y));
+// console.log("testam NaN: ", isNaN(y));
+console.log("z = ", z);
+
+// function testAge() {
+//   let age = prompt("introduceti varsta:");
+//   if (age >= 18) {
+//     document.getElementById("mydiv1").innerText =
+//       "Aveti varsta legala pentru a conduce";
+//   } else {
+//     document.getElementById("mydiv1").innerText =
+//       "Nu aveti varsta legala pentru a conduce";
+//   }
+// }
