@@ -20,12 +20,31 @@ linii
 // let x = { name: "Andrei", age: 27 };
 // x = 5;
 // let x = function () {};
-let x = null;
-console.log("variabila x are valoarea: ", x);
+// let x = null;
+// console.log("variabila x are valoarea: ", x);
 
 // let const noua modalitate de declarare a variabilelor
 
 // Tipuri de date primitive : numbers, strings, undefined, boolean, bigInt, symbol
 // Tipuri de date structurale: objects, functions
 // Tipul de date null
-console.log("variabila x este de tipul: ", typeof x);
+// console.log("variabila x este de tipul: ", typeof x);
+
+console.log("<<<<Operatori Matematici>>>>");
+// console.log(typeof z);
+/* 
+Operatori matematici:
+*/
+
+// let x = 10;
+// let y = 7;
+// let z = x % y;
+// let x = 7;
+// let y = 10;
+// x++;
+// x += 5; // x + 5
+// x -= 5; // x - 5
+// x -= y;
+let x = 5 + 3 * (2 + 7 - 8 / 2); // 14 // 20
+
+console.log("variabila x are valoarea: ", x);
