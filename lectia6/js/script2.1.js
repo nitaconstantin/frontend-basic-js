@@ -30,5 +30,5 @@ let b = 7;
 // }
 
 // ternary operator
-// NaN, undefined, null vor intoarce intotdeauna false
+// 0, '', false, NaN, undefined, null vor intoarce intotdeauna false
 undefined ? console.log("Adevarat!") : console.log("Fals!");
