@@ -1,8 +1,32 @@
 "use strict";
+let myNewVariableOne = "string",
+  myNewVariableTwo = 0,
+  myNewVariableThree = [],
+  myNewVariableFour = {};
 
+const myNewVariableFive = 12;
 let v1 = 3;
+
+let newVariableOne = new String("Alina");
+let newVariableTwo = "Alina";
+console.log(
+  ">>>>",
+  newVariableTwo,
+  newVariableOne,
+  newVariableOne === newVariableTwo
+);
+
+console.log(">>>>", typeof newVariableOne, typeof newVariableTwo);
 // delete v1;
 //let v1;
+
+// let newVariableFour = 5 + 7;
+// let newVariableFour = "5" + 7;
+// let newVariableFour = 5 + "7";
+// let newVariableFour = "5" - 7; // -2
+// let newVariableFour = 5 - "7";
+let newVariableFour = "a" - 7; // NaN
+console.log("newVariableFour = ", newVariableFour);
 
 function func1() {
   // function in strict mode
@@ -49,3 +73,30 @@ console.log("prop1:", obj2.property1);
 
 // let eval = 5;
 // let arguments = 5;
+
+let myLocalVariable1;
+// function addThreeNumbers(a, b, c) {}
+let addThreeNumbers = (a, b, c) => {
+  return a + b + c;
+};
+
+// if (a === b) {
+// } else {
+// }
+
+let numbersArray = [5, 7, 9];
+
+let person = {
+  name: "Adrian",
+  age: 25,
+  height: 178,
+  nationality: "RO",
+};
+
+function newFuncToReadDataFromServer(
+  myParameter1,
+  secondParameterRegardingInput,
+  thirdParameterRegardingOutput
+) {
+  return true;
+}
