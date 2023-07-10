@@ -1,4 +1,37 @@
 "use strict";
+let a1 = 5;
+let a2 = "5";
+// if (a1 !== a2) {
+//   console.log("Valorile sunt egale");
+// }
+switch (a1) {
+  case 5:
+    console.log("Switch OK!");
+    break;
+}
+
+let a3 = 0.3 + 0.2;
+console.log("a3 = ", a3);
+
+let a4 =
+  "Buna \
+ziua";
+
+function add30ToNumber(x) {
+  let y = 30;
+  return x + y;
+  /* Nu
+	return
+	x + y
+  */
+}
+console.log("add30ToNumber: ", add30ToNumber(20));
+
+console.log(a4);
+
+// undefined !== null
+let a5 = null;
+console.log("undefined variable: ", a5 === null);
 let myNewVariableOne = "string",
   myNewVariableTwo = 0,
   myNewVariableThree = [],
@@ -22,10 +55,7 @@ console.log(">>>>", typeof newVariableOne, typeof newVariableTwo);
 
 // let newVariableFour = 5 + 7;
 // let newVariableFour = "5" + 7;
-// let newVariableFour = 5 + "7";
-// let newVariableFour = "5" - 7; // -2
-// let newVariableFour = 5 - "7";
-let newVariableFour = "a" - 7; // NaN
+let newVariableFour = 5 + "7";
 console.log("newVariableFour = ", newVariableFour);
 
 function func1() {
@@ -100,3 +130,15 @@ function newFuncToReadDataFromServer(
 ) {
   return true;
 }
+
+function displayVar2() {
+  document.getElementById("myDiv3").innerText = add2();
+}
+
+let add2 = (function () {
+  let counter = 0;
+  return function () {
+    counter++;
+    return counter;
+  };
+})();
