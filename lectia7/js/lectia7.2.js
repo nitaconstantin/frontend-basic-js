@@ -36,3 +36,7 @@ let myFunc3 = (a, b = 5) => {
 let z2 = myFunc3(20, 18);
 let z3 = myFunc3(27);
 console.log(z2, z3);
+
+// console.log("myVar1 = ", myVar1);
+// myVar1 = 7;
+// console.log("myVar1 = ", myVar1);
