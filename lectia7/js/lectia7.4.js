@@ -48,4 +48,4 @@ console.log("prop1:", obj2.property1);
 // public, protected, static, private, let, eval, arguments, interface, yield, etc.
 
 // let eval = 5;
-let arguments = 5;
+// let arguments = 5;
